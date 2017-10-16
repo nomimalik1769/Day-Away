@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846BBD3E1F8F2F1B00D62167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BBD3D1F8F2F1B00D62167 /* AppDelegate.swift */; };
+		846BBD431F8F2F1C00D62167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846BBD411F8F2F1C00D62167 /* Main.storyboard */; };
+		846BBD451F8F2F1C00D62167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846BBD441F8F2F1C00D62167 /* Assets.xcassets */; };
+		846BBD481F8F2F1C00D62167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846BBD461F8F2F1C00D62167 /* LaunchScreen.storyboard */; };
+		846BBD501F8F418F00D62167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BBD4F1F8F418F00D62167 /* ViewController.swift */; };
+		B037B3FE1F910F9600714860 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B037B3FD1F910F9600714860 /* GoogleService-Info.plist */; };
+		B04DBE6A1F91DD2D0050C37F /* CallDirectoryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04DBE691F91DD2D0050C37F /* CallDirectoryHandler.swift */; };
+		B04DBE6E1F91DD2D0050C37F /* CallBlockEx.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B04DBE671F91DD2D0050C37F /* CallBlockEx.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B04DBE801F91DEF80050C37F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DBE741F91DEF60050C37F /* FMDatabase.m */; };
+		B04DBE811F91DEF80050C37F /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DBE761F91DEF70050C37F /* FMDatabaseQueue.m */; };
+		B04DBE821F91DEF80050C37F /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DBE781F91DEF70050C37F /* FMDatabaseAdditions.m */; };
+		B04DBE831F91DEF80050C37F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DBE7B1F91DEF80050C37F /* FMResultSet.m */; };
+		B04DBE841F91DEF80050C37F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DBE7F1F91DEF80050C37F /* FMDatabasePool.m */; };
+		B04DBE921F91DFBA0050C37F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DBE861F91DFB70050C37F /* FMDatabase.m */; };
+		B04DBE931F91DFBA0050C37F /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DBE881F91DFB70050C37F /* FMDatabaseQueue.m */; };
+		B04DBE941F91DFBA0050C37F /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DBE8A1F91DFB80050C37F /* FMDatabaseAdditions.m */; };
+		B04DBE951F91DFBA0050C37F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DBE8D1F91DFB90050C37F /* FMResultSet.m */; };
+		B04DBE961F91DFBA0050C37F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DBE911F91DFBA0050C37F /* FMDatabasePool.m */; };
+		B04DBE981F91E1510050C37F /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04DBE971F91E1510050C37F /* DBManager.swift */; };
+		B04DBE9A1F91E6710050C37F /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04DBE991F91E6700050C37F /* DBManager.swift */; };
+		B0FD7FB61F90C99500963129 /* contactaviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD7FB51F90C99500963129 /* contactaviewTableViewCell.swift */; };
+		E2AD415DAAA4F11DAC178BCB /* Pods_Call_Block.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B7081BE24DEDAF0092CBA7 /* Pods_Call_Block.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B04DBE6C1F91DD2D0050C37F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846BBD321F8F2F1B00D62167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04DBE661F91DD2D0050C37F;
+			remoteInfo = CallBlockEx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B04DBE721F91DD2E0050C37F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B04DBE6E1F91DD2D0050C37F /* CallBlockEx.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01CCE1A7628EB100A7E4F10A /* Pods-Call Block.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Call Block.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Call Block/Pods-Call Block.debug.xcconfig"; sourceTree = "<group>"; };
+		70B7081BE24DEDAF0092CBA7 /* Pods_Call_Block.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Call_Block.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		846BBD3A1F8F2F1B00D62167 /* Call Block.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Call Block.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846BBD3D1F8F2F1B00D62167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846BBD421F8F2F1C00D62167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846BBD441F8F2F1C00D62167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846BBD471F8F2F1C00D62167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846BBD491F8F2F1C00D62167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846BBD4F1F8F418F00D62167 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B037B3FD1F910F9600714860 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B04DBE671F91DD2D0050C37F /* CallBlockEx.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallBlockEx.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04DBE691F91DD2D0050C37F /* CallDirectoryHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDirectoryHandler.swift; sourceTree = "<group>"; };
+		B04DBE6B1F91DD2D0050C37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04DBE731F91DEF50050C37F /* CallBlockEx-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CallBlockEx-Bridging-Header.h"; sourceTree = "<group>"; };
+		B04DBE741F91DEF60050C37F /* FMDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		B04DBE751F91DEF70050C37F /* FMResultSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		B04DBE761F91DEF70050C37F /* FMDatabaseQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		B04DBE771F91DEF70050C37F /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		B04DBE781F91DEF70050C37F /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		B04DBE791F91DEF70050C37F /* FMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		B04DBE7A1F91DEF70050C37F /* FMDatabasePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		B04DBE7B1F91DEF80050C37F /* FMResultSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		B04DBE7C1F91DEF80050C37F /* FMDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		B04DBE7D1F91DEF80050C37F /* FMDatabaseQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B04DBE7E1F91DEF80050C37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../../Volumes/Multimedia/Project Related/fmdb-master/src/fmdb/Info.plist"; sourceTree = "<group>"; };
+		B04DBE7F1F91DEF80050C37F /* FMDatabasePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		B04DBE851F91DFB60050C37F /* Call Block-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Call Block-Bridging-Header.h"; sourceTree = "<group>"; };
+		B04DBE861F91DFB70050C37F /* FMDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		B04DBE871F91DFB70050C37F /* FMResultSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		B04DBE881F91DFB70050C37F /* FMDatabaseQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		B04DBE891F91DFB80050C37F /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		B04DBE8A1F91DFB80050C37F /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		B04DBE8B1F91DFB80050C37F /* FMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		B04DBE8C1F91DFB80050C37F /* FMDatabasePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		B04DBE8D1F91DFB90050C37F /* FMResultSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		B04DBE8E1F91DFB90050C37F /* FMDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		B04DBE8F1F91DFB90050C37F /* FMDatabaseQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B04DBE901F91DFB90050C37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../../Volumes/Multimedia/Project Related/fmdb-master/src/fmdb/Info.plist"; sourceTree = "<group>"; };
+		B04DBE911F91DFBA0050C37F /* FMDatabasePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		B04DBE971F91E1510050C37F /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		B04DBE991F91E6700050C37F /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DBManager.swift; path = "Call Block/DBManager.swift"; sourceTree = SOURCE_ROOT; };
+		B0FD7FB51F90C99500963129 /* contactaviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactaviewTableViewCell.swift; sourceTree = "<group>"; };
+		BC45ECF377B03F25B321B071 /* Pods-Call Block.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Call Block.release.xcconfig"; path = "Pods/Target Support Files/Pods-Call Block/Pods-Call Block.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846BBD371F8F2F1B00D62167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AD415DAAA4F11DAC178BCB /* Pods_Call_Block.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04DBE641F91DD2D0050C37F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AB26608F3327510D3E224DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01CCE1A7628EB100A7E4F10A /* Pods-Call Block.debug.xcconfig */,
+				BC45ECF377B03F25B321B071 /* Pods-Call Block.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		846BBD311F8F2F1B00D62167 = {
+			isa = PBXGroup;
+			children = (
+				846BBD3C1F8F2F1B00D62167 /* Call Block */,
+				B04DBE681F91DD2D0050C37F /* CallBlockEx */,
+				846BBD3B1F8F2F1B00D62167 /* Products */,
+				7AB26608F3327510D3E224DB /* Pods */,
+				BED4FC5BB665D1429C12A5EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		846BBD3B1F8F2F1B00D62167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846BBD3A1F8F2F1B00D62167 /* Call Block.app */,
+				B04DBE671F91DD2D0050C37F /* CallBlockEx.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846BBD3C1F8F2F1B00D62167 /* Call Block */ = {
+			isa = PBXGroup;
+			children = (
+				846BBD3D1F8F2F1B00D62167 /* AppDelegate.swift */,
+				B037B3FD1F910F9600714860 /* GoogleService-Info.plist */,
+				B04DBE8E1F91DFB90050C37F /* FMDatabase.h */,
+				B04DBE861F91DFB70050C37F /* FMDatabase.m */,
+				B04DBE891F91DFB80050C37F /* FMDatabaseAdditions.h */,
+				B04DBE8A1F91DFB80050C37F /* FMDatabaseAdditions.m */,
+				B04DBE8C1F91DFB80050C37F /* FMDatabasePool.h */,
+				B04DBE911F91DFBA0050C37F /* FMDatabasePool.m */,
+				B04DBE8F1F91DFB90050C37F /* FMDatabaseQueue.h */,
+				B04DBE881F91DFB70050C37F /* FMDatabaseQueue.m */,
+				B04DBE8B1F91DFB80050C37F /* FMDB.h */,
+				B04DBE871F91DFB70050C37F /* FMResultSet.h */,
+				B04DBE8D1F91DFB90050C37F /* FMResultSet.m */,
+				B04DBE901F91DFB90050C37F /* Info.plist */,
+				846BBD411F8F2F1C00D62167 /* Main.storyboard */,
+				B0FD7FB51F90C99500963129 /* contactaviewTableViewCell.swift */,
+				846BBD4F1F8F418F00D62167 /* ViewController.swift */,
+				B04DBE971F91E1510050C37F /* DBManager.swift */,
+				846BBD441F8F2F1C00D62167 /* Assets.xcassets */,
+				846BBD461F8F2F1C00D62167 /* LaunchScreen.storyboard */,
+				846BBD491F8F2F1C00D62167 /* Info.plist */,
+				B04DBE851F91DFB60050C37F /* Call Block-Bridging-Header.h */,
+			);
+			path = "Call Block";
+			sourceTree = "<group>";
+		};
+		B04DBE681F91DD2D0050C37F /* CallBlockEx */ = {
+			isa = PBXGroup;
+			children = (
+				B04DBE7C1F91DEF80050C37F /* FMDatabase.h */,
+				B04DBE741F91DEF60050C37F /* FMDatabase.m */,
+				B04DBE771F91DEF70050C37F /* FMDatabaseAdditions.h */,
+				B04DBE781F91DEF70050C37F /* FMDatabaseAdditions.m */,
+				B04DBE7A1F91DEF70050C37F /* FMDatabasePool.h */,
+				B04DBE7F1F91DEF80050C37F /* FMDatabasePool.m */,
+				B04DBE7D1F91DEF80050C37F /* FMDatabaseQueue.h */,
+				B04DBE761F91DEF70050C37F /* FMDatabaseQueue.m */,
+				B04DBE791F91DEF70050C37F /* FMDB.h */,
+				B04DBE751F91DEF70050C37F /* FMResultSet.h */,
+				B04DBE7B1F91DEF80050C37F /* FMResultSet.m */,
+				B04DBE7E1F91DEF80050C37F /* Info.plist */,
+				B04DBE991F91E6700050C37F /* DBManager.swift */,
+				B04DBE691F91DD2D0050C37F /* CallDirectoryHandler.swift */,
+				B04DBE6B1F91DD2D0050C37F /* Info.plist */,
+				B04DBE731F91DEF50050C37F /* CallBlockEx-Bridging-Header.h */,
+			);
+			path = CallBlockEx;
+			sourceTree = "<group>";
+		};
+		BED4FC5BB665D1429C12A5EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70B7081BE24DEDAF0092CBA7 /* Pods_Call_Block.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846BBD391F8F2F1B00D62167 /* Call Block */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846BBD4C1F8F2F1C00D62167 /* Build configuration list for PBXNativeTarget "Call Block" */;
+			buildPhases = (
+				967BC2283A4CB77A1A4EDA4F /* [CP] Check Pods Manifest.lock */,
+				846BBD361F8F2F1B00D62167 /* Sources */,
+				846BBD371F8F2F1B00D62167 /* Frameworks */,
+				846BBD381F8F2F1B00D62167 /* Resources */,
+				E8E7233157EB47C7DC8D5FEC /* [CP] Embed Pods Frameworks */,
+				C26B06F87584498CD9E8088B /* [CP] Copy Pods Resources */,
+				B04DBE721F91DD2E0050C37F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04DBE6D1F91DD2D0050C37F /* PBXTargetDependency */,
+			);
+			name = "Call Block";
+			productName = "Call Block";
+			productReference = 846BBD3A1F8F2F1B00D62167 /* Call Block.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B04DBE661F91DD2D0050C37F /* CallBlockEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04DBE711F91DD2E0050C37F /* Build configuration list for PBXNativeTarget "CallBlockEx" */;
+			buildPhases = (
+				B04DBE631F91DD2D0050C37F /* Sources */,
+				B04DBE641F91DD2D0050C37F /* Frameworks */,
+				B04DBE651F91DD2D0050C37F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallBlockEx;
+			productName = CallBlockEx;
+			productReference = B04DBE671F91DD2D0050C37F /* CallBlockEx.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846BBD321F8F2F1B00D62167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "globia Technologies";
+				TargetAttributes = {
+					846BBD391F8F2F1B00D62167 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					B04DBE661F91DD2D0050C37F = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 846BBD351F8F2F1B00D62167 /* Build configuration list for PBXProject "Call Block" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846BBD311F8F2F1B00D62167;
+			productRefGroup = 846BBD3B1F8F2F1B00D62167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846BBD391F8F2F1B00D62167 /* Call Block */,
+				B04DBE661F91DD2D0050C37F /* CallBlockEx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846BBD381F8F2F1B00D62167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846BBD481F8F2F1C00D62167 /* LaunchScreen.storyboard in Resources */,
+				B037B3FE1F910F9600714860 /* GoogleService-Info.plist in Resources */,
+				846BBD451F8F2F1C00D62167 /* Assets.xcassets in Resources */,
+				846BBD431F8F2F1C00D62167 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04DBE651F91DD2D0050C37F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		967BC2283A4CB77A1A4EDA4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Call Block-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C26B06F87584498CD9E8088B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Call Block/Pods-Call Block-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E7233157EB47C7DC8D5FEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Call Block/Pods-Call Block-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Call Block/Pods-Call Block-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846BBD361F8F2F1B00D62167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04DBE931F91DFBA0050C37F /* FMDatabaseQueue.m in Sources */,
+				846BBD501F8F418F00D62167 /* ViewController.swift in Sources */,
+				B04DBE951F91DFBA0050C37F /* FMResultSet.m in Sources */,
+				B0FD7FB61F90C99500963129 /* contactaviewTableViewCell.swift in Sources */,
+				B04DBE981F91E1510050C37F /* DBManager.swift in Sources */,
+				846BBD3E1F8F2F1B00D62167 /* AppDelegate.swift in Sources */,
+				B04DBE961F91DFBA0050C37F /* FMDatabasePool.m in Sources */,
+				B04DBE921F91DFBA0050C37F /* FMDatabase.m in Sources */,
+				B04DBE941F91DFBA0050C37F /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04DBE631F91DD2D0050C37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04DBE6A1F91DD2D0050C37F /* CallDirectoryHandler.swift in Sources */,
+				B04DBE841F91DEF80050C37F /* FMDatabasePool.m in Sources */,
+				B04DBE801F91DEF80050C37F /* FMDatabase.m in Sources */,
+				B04DBE811F91DEF80050C37F /* FMDatabaseQueue.m in Sources */,
+				B04DBE821F91DEF80050C37F /* FMDatabaseAdditions.m in Sources */,
+				B04DBE831F91DEF80050C37F /* FMResultSet.m in Sources */,
+				B04DBE9A1F91E6710050C37F /* DBManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B04DBE6D1F91DD2D0050C37F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04DBE661F91DD2D0050C37F /* CallBlockEx */;
+			targetProxy = B04DBE6C1F91DD2D0050C37F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846BBD411F8F2F1C00D62167 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846BBD421F8F2F1C00D62167 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846BBD461F8F2F1C00D62167 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846BBD471F8F2F1C00D62167 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846BBD4A1F8F2F1C00D62167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846BBD4B1F8F2F1C00D62167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846BBD4D1F8F2F1C00D62167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01CCE1A7628EB100A7E4F10A /* Pods-Call Block.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWN8RB5558;
+				INFOPLIST_FILE = "Call Block/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nomi.dev.blockcalldemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Call Block/Call Block-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846BBD4E1F8F2F1C00D62167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC45ECF377B03F25B321B071 /* Pods-Call Block.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWN8RB5558;
+				INFOPLIST_FILE = "Call Block/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nomi.dev.blockcalldemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Call Block/Call Block-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B04DBE6F1F91DD2E0050C37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWN8RB5558;
+				INFOPLIST_FILE = CallBlockEx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nomi.dev.blockcalldemo.callblockk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CallBlockEx/CallBlockEx-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B04DBE701F91DD2E0050C37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWN8RB5558;
+				INFOPLIST_FILE = CallBlockEx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nomi.dev.blockcalldemo.callblockk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CallBlockEx/CallBlockEx-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846BBD351F8F2F1B00D62167 /* Build configuration list for PBXProject "Call Block" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846BBD4A1F8F2F1C00D62167 /* Debug */,
+				846BBD4B1F8F2F1C00D62167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846BBD4C1F8F2F1C00D62167 /* Build configuration list for PBXNativeTarget "Call Block" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846BBD4D1F8F2F1C00D62167 /* Debug */,
+				846BBD4E1F8F2F1C00D62167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04DBE711F91DD2E0050C37F /* Build configuration list for PBXNativeTarget "CallBlockEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04DBE6F1F91DD2E0050C37F /* Debug */,
+				B04DBE701F91DD2E0050C37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846BBD321F8F2F1B00D62167 /* Project object */;
+}
