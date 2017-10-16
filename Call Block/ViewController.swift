@@ -1,17 +1,10 @@
-//
-//  DummyViewController.swift
-//  Call Block
-//
-//  Created by Admin on 12/10/2017.
-//  Copyright © 2017 globia Technologies. All rights reserved.
-//
 
 import UIKit
 import ContactsUI
 import GoogleMobileAds
 import CallKit
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate, CNContactPickerDelegate {
-
+///nnnnnn
     @IBOutlet weak var btnonoff: UIButton!
     @IBOutlet weak var Plabel: UIButton!
     @IBOutlet weak var Blabel: UIButton!
