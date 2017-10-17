@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //ca-app-pub-2828870879289463~7786957199
         FirebaseApp.configure()
-        GADMobileAds.configure(withApplicationID: "ca-app-pub-2828870879289463~7786957199")
+        GADMobileAds.configure(withApplicationID: "ca-app-pub-5637951448996770~4459199663")
 
 //        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .any,barMetrics: .default)
 //        UINavigationBar.appearance().shadowImage = UIImage()
